@@ -66,6 +66,16 @@
         function homeLink() {
             window.open("index.html", "_self");
         }
+
+        function editContact() {
+            document.getElementById("firstname").readOnly = false;
+            document.getElementById("lastname").readOnly = false;
+            document.getElementById("mobile").readOnly = false;
+            document.getElementById("email").readOnly = false;
+            document.getElementById("avatarLabel").hidden = false;
+            document.getElementById("avatar").hidden = false;
+            document.getElementById("submitFrom").hidden = false;
+        }
     </script>
 </body>
 </html>
