@@ -35,6 +35,7 @@
         var id = getId();
 
         document.getElementById("homeLink").addEventListener('click', homeLink);
+        document.getElementById("editContact").addEventListener('click', editContact);
 
         function getId() {
             var url = window.location.href;
@@ -74,7 +75,7 @@
             document.getElementById("email").readOnly = false;
             document.getElementById("avatarLabel").hidden = false;
             document.getElementById("avatar").hidden = false;
-            document.getElementById("submitFrom").hidden = false;
+            document.getElementById("submitForm").hidden = false;
         }
     </script>
 </body>
